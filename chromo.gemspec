@@ -26,6 +26,9 @@ Gem::Specification.new do |spec|
   # spec.add_dependency "example-gem", "~> 1.0"
   spec.add_development_dependency "pry"
 
+  spec.add_dependency "enumark", "~> 0.1.4"
+  spec.add_dependency "mongoid", "~> 7.2"
+
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html
 end
